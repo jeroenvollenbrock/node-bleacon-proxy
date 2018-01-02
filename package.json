@@ -1,0 +1,16 @@
+{
+  "name": "bleacon-proxy",
+  "version": "1.0.0",
+  "description": "This module spawns a bleacon proxy server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "bin": "./bin/bleacon-proxy",
+  "author": "Jeroen Vollenbrock <jeroen@athom.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bleacon": "^0.5.1"
+  }
+}
